@@ -9,7 +9,7 @@ const InTro = () => {
                     <span>Lumumba Harmony</span>
                     <span>Frontend And Backend Developer with better expirience in web designinng and development,producing a quality work</span>
                 </div>
-                <button className="button i-button">Hire Me</button>
+                <button className="button i-button">HireMe</button>
             </div>
             <div className="i-right">
                 i am right side
