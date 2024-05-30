@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Intro.css'
 const InTro = () => {
     return (
         <div className="intro">
@@ -9,8 +9,11 @@ const InTro = () => {
                     <span>Lumumba Harmony</span>
                     <span>Frontend And Backend Developer with better expirience in web designinng and development,producing a quality work</span>
                 </div>
+                <button className="button i-button">Hire Me</button>
             </div>
-            <div className="i-right"></div>
+            <div className="i-right">
+                i am right side
+            </div>
         </div>
     )
 }
