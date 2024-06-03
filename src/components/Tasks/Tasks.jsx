@@ -1,5 +1,6 @@
 import React from 'react'
 import './Tasks.css';
+import Card from '../Card/Card.jsx';
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
@@ -20,7 +21,13 @@ const Tasks = () => {
             </div>
             {/*right side*/}
             <div className="cards">
-                 this is the right
+                <div>
+                    <Card
+                        emoji={HeartEmoji}
+                        heading={'Design'}
+                        detail={"Figma,Sketch,Photoshop,Adobe,Adobe"}
+                    />
+                </div>
             </div>
         </div>
 
