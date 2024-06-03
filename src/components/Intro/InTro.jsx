@@ -1,4 +1,5 @@
 import React from 'react';
+import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
 import Instagram from '../../img/instagram.png';
@@ -30,9 +31,10 @@ const InTro = () => {
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={me} alt="" />
+                <div style={{top:'-4%',left:'68%'}}></div>
             </div>
             <div>
-                <FloatingDiv/>
+                <FloatingDiv image={Crown} txt1='Web' txt2='Developer' />
             </div>
         </div>
     )
