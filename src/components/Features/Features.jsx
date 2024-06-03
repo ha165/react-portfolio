@@ -16,7 +16,7 @@ const Features = () => {
                     i have done in the past
                 </spane>
                 <div className="button s-button">Download CV</div>
-                <div className="blur"></div>
+                <div className="blur s-blur" style={{background:'#ABF1FF94'}}></div>
             </div>
             {/*ight side*/}
             <div className="cards">
