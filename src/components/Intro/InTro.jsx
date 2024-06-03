@@ -36,6 +36,9 @@ const InTro = () => {
             <div>
                 <FloatingDiv image={Crown} txt1='Web' txt2='Developer' />
             </div>
+            <div>
+                <FloatingDiv image={Thumbup} txt1
+            </div>
         </div>
     )
 }
