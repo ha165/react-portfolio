@@ -25,7 +25,7 @@ const Tasks = () => {
                     <Card
                         emoji={HeartEmoji}
                         heading={'Design'}
-                        detail={"Figma,Sketch,Photoshop,Adobe,Adobe"}
+                        detail={"Figma, Sketch, Photoshop, Adobe, Adobe"}
                     />
                 </div>
             </div>
