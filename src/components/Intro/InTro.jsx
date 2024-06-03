@@ -31,6 +31,9 @@ const InTro = () => {
                 <img src={Vector2} alt="" />
                 <img src={me} alt="" />
             </div>
+            <div>
+                <FloatingDiv/>
+            </div>
         </div>
     )
 }
