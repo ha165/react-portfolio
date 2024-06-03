@@ -31,14 +31,25 @@ const InTro = () => {
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={me} alt="" />
-                <div style={{top:'-4%',left:'68%'}}></div>
+                <img src={glassesimoji} alt="" />
+                <div style={{ top: '-4%', left: '68%' }}>
+                    <FloatingDiv image={Crown} txt1='Web' txt2='Developer' />
+                </div>
+                <div style={{ top: '18rem', left: '0rem' }}>
+                    <FloatingDiv image={Thumbup} txt1='Best Design' txt2='Award' />
+                </div>
+                {/* lur ddivs */}
+                <div className='blur' style={{ background: "rgb(263 210 255)" }}>
+                </div>
+                <div className="blur" style={{
+                    background:'#C1F5FF',
+                    top:'17rem',
+                    width:'21rem',
+                    height:'11rem',
+                    left:'-9rem'
+                }}></div>
             </div>
-            <div>
-                <FloatingDiv image={Crown} txt1='Web' txt2='Developer' />
-            </div>
-            <div>
-                <FloatingDiv image={Thumbup} txt1
-            </div>
+
         </div>
     )
 }
