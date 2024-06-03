@@ -20,7 +20,7 @@ const InTro = () => {
                     <span>Lumumba Harmony</span>
                     <span>Frontend And Backend Developer with better expirience in web designinng and development,producing a quality work</span>
                 </div>
-                <button className="button i-button">Hireme</button>
+                <button className="button i-button">Hire me</button>
                 <div className="i-icons">
                     <img src={Github} alt="" />
                     <img src={LinkedIn} alt="" />

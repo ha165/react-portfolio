@@ -1,13 +1,13 @@
 import NavBar from "./components/Navbar/NavBar";
 import InTro from "./components/Intro/InTro";
-import Features from "./components/Features/Features";
+import Tasks from "./components/Tasks/Tasks";
 import './App.css';
 function App() {
   return (
     <div className="App">
       <NavBar />
       <InTro />
-      <Features />
+      <Tasks />
     </div>
   );
 }
