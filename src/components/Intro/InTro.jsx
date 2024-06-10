@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
@@ -10,13 +10,16 @@ import me from '../../img/me.png';
 import Thumbup from '../../img/thumbup.png';
 import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
+import { themeContext } from "../../Context";
 import './Intro.css';
 const InTro = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className="intro">
             <div className="i-left">
                 <div className="i-name">
-                    <span> Hey! I Am</span>
+                    <span style={{ color: darkMode ? "white" : "" }}> Hey! I Am</span>
                     <span>Lumumba Harmony</span>
                     <span>Frontend And Backend Developer with better expirience in web designinng and development,producing a quality work</span>
                 </div>
@@ -42,11 +45,11 @@ const InTro = () => {
                 <div className='blur' style={{ background: "rgb(263 210 255)" }}>
                 </div>
                 <div className="blur" style={{
-                    background:'#C1F5FF',
-                    top:'17rem',
-                    width:'21rem',
-                    height:'11rem',
-                    left:'-9rem'
+                    background: '#C1F5FF',
+                    top: '17rem',
+                    width: '21rem',
+                    height: '11rem',
+                    left: '-9rem'
                 }}></div>
             </div>
 
