@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Tasks.css';
 import Card from '../Card/Card.jsx';
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
+import { themeContext } from "../../Context";
 import Resume from "./CV.pdf";
 const Tasks = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className="services">
             {/*Left Side */}
             <div className="awesome">
-                <span>My Awesome</span>
+                <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
                 <span>Services</span>
                 <spane>
                     Lorem ispum is simpley dummy text of printing of printing Lorem
@@ -47,7 +50,7 @@ const Tasks = () => {
                         detail={"Lorem ispum dummy text are usually use in section where we need some random text"}
                     />
                 </div>
-                <div className="blur s-blur2"style={{ background: "var(--purple)" }}
+                <div className="blur s-blur2" style={{ background: "var(--purple)" }}
                 ></div>
             </div>
         </div>
