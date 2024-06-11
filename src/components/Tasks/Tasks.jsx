@@ -16,7 +16,7 @@ const Tasks = () => {
     };
 
     return (
-        <div className="services">
+        <div className="services" id='Tasks'>
             {/*Left Side */}
             <div className="awesome">
                 <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
