@@ -22,9 +22,9 @@ const Tasks = () => {
                 <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
                 <span>Services</span>
                 <spane>
-                    Lorem ispum is simpley dummy text of printing of printing Lorem
+                    I specialize in crafting dynamic and responsive websites tailored to your unique needs
                     <br />
-                    ispum is simpley dummy text of printing
+                    Whether you're looking for a sleek landing page,a robust e-commerce platform, or a custom web application, I've got you covered
                 </spane>
                 <a href={Resume} download>
                     <button className="button s-button">Download CV</button>
@@ -53,7 +53,7 @@ const Tasks = () => {
                     <Card
                         emoji={Glasses}
                         heading={'Developer'}
-                        detail={'Html, Laravel, JavaScript, React'}
+                        detail={'Html, PHP, JavaScript, React,MongoDB,SQL,Node'}
                     />
                 </motion.div>
                 {/* third Card */}
@@ -65,7 +65,7 @@ const Tasks = () => {
                     <Card
                         emoji={Humble}
                         heading={"UI/UX"}
-                        detail={"Lorem ispum dummy text are usually use in section where we need some random text"}
+                        detail={'Make a lasting impression with a visually stunning and user-friendly website. '}
                     />
                 </motion.div>
                 <div className="blur s-blur2" style={{ background: "var(--purple)" }}

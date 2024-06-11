@@ -81,13 +81,15 @@
   transform: scale(1.4);
   left: 28%;
 }
-.i-right>:nth-child(4){
+
+.i-right>:nth-child(4) {
   transform: scale(0.6);
   top: -19%;
   left: -24%;
   border-radius: 50%;
 }
-.blur{
+
+.blur {
   position: absolute;
   width: 22rem;
   height: 14rem;
@@ -98,8 +100,9 @@
   left: 56%;
   filter: blur(72px);
 }
+
 @media screen and (max-width: 480px) {
-  .Intro {
+  .intro {
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
@@ -109,11 +112,14 @@
     transform: scale(0.8);
     left: -3rem;
   }
+
   .i-right .blur {
     display: none;
   }
-  .floating-div:nth-of-type(1){
+
+  .floating-div:nth-of-type(1) {
     /* display: none; */
-    top: -7rem !important;;
+    top: -7rem !important;
+    ;
   }
 }
